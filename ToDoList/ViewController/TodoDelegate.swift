@@ -39,8 +39,4 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         let swipe = UISwipeActionsConfiguration(actions: [delete])
         return swipe
     }
-    
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        //
-    }
 }
